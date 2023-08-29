@@ -1,0 +1,27 @@
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+
+body    {
+    margin: 0;
+}
+
+#main    {
+    background-color: hsl(257, 40%, 49%); 
+    z-index: 0;
+}
+
+#left-col   {
+    display: flex;
+    flex-direction: column;
+}
+
+#right-col  {
+    display: flex;
+    flex-direction: column;
+}
+
+h1  {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
