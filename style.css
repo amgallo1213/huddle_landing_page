@@ -9,6 +9,7 @@ body    {
 #main    {
     background-color: hsl(257, 40%, 49%); 
     z-index: 0;
+    position: relative;
 }
 
 #left-col   {
@@ -24,4 +25,17 @@ body    {
 h1  {
     color: white;
     font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 25px;
+    left: 80px;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+#mock-up    {
+    width: 45%;
+    height: 60%;
+    position: absolute;
+    top: 200px;
+    left: 80px;
 }
