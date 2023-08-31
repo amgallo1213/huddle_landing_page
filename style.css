@@ -56,39 +56,76 @@ body {
         font-size: 20px;
         font-weight: 600;
         text-align: center;
+        margin-bottom: 0;
     }
     #motto {
         font-family: 'Open Sans', sans-serif;
-        /* position: absolute; */
         position: relative;
-        top: 20px;
-        right: 50px;
+        top: 10px;
         font-size: 15px;
         font-weight: 400;
         line-height: 15px;
+        text-align: center;
+        padding: 15px;
     }
 
     #button {
         position: absolute;
-        top: 470px;
-        right: 430px;
+        top: 560px;
+        right: 100px;
         background-color: white;
         color: hsl(257, 40%, 49%);
-        height: 40px;
-        width: 185px;
-        border-radius: 30px;
-        font-size: 18px;
+        height: 25px;
+        width: 150px;
+        border-radius: 20px;
+        font-size: 10px;
         font-family: 'Poppins', sans-serif;
         font-weight: 400;
         text-align: center;
-        padding-top: 15px;
+        padding-top: 5px;
+    }
+    #socials {
+        position: absolute;
+        right: 100px;
+        bottom: 00px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    #FB {
+        height: 40px;
+        width: 40px;
+        border: 1px solid #eeeff2;
+        border-radius: 50%;
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #twitter {
+        height: 40px;
+        width: 40px;
+        border: 1px solid #eeeff2;
+        border-radius: 50%;
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #insta {
+        height: 40px;
+        width: 40px;
+        border: 1px solid #eeeff2;
+        border-radius: 50%;
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
-    #button:hover {
-        background-color: hsl(300, 69%, 71%);
-        color: #eeeff2;
-        cursor: pointer;
-    }
 }
 
 @media (min-width: 1025px) {
@@ -96,18 +133,15 @@ body {
         background-image: url(images/bg-desktop.svg);
     }
 
-
     #left-col {
         display: flex;
         flex-direction: column;
     }
-
     #chatbubble {
         position: absolute;
         top: 95px;
         left: 75px;
     }
-
     h1 {
         font-family: 'Poppins', sans-serif;
         position: absolute;
@@ -116,7 +150,6 @@ body {
         font-size: 50px;
         font-weight: 600;
     }
-
     #mock-up {
         width: 45%;
         height: 60%;
@@ -130,7 +163,6 @@ body {
         display: flex;
         flex-direction: column;
     }
-
     #h3 {
         font-family: 'Poppins', sans-serif;
         position: absolute;
@@ -140,7 +172,6 @@ body {
         font-weight: 600;
         margin: 0;
     }
-
     #motto {
         font-family: 'Open Sans', sans-serif;
         position: absolute;
@@ -150,7 +181,6 @@ body {
         font-weight: 400;
         line-height: 25px;
     }
-
     #button {
         position: absolute;
         top: 470px;
@@ -166,7 +196,6 @@ body {
         text-align: center;
         padding-top: 15px;
     }
-
     #button:hover {
         background-color: hsl(300, 69%, 71%);
         color: #eeeff2;
@@ -181,12 +210,6 @@ body {
         flex-direction: row;
         justify-content: space-evenly;
     }
-
-    .hover-change:hover {
-        border-color: hsl(300, 69%, 71%);
-        cursor: pointer;
-    }
-
     #FB {
         height: 40px;
         width: 40px;
@@ -198,7 +221,10 @@ body {
         align-items: center;
         justify-content: center;
     }
-
+    #FB:hover   {
+        border-color: hsl(300, 69%, 71%);
+        cursor: pointer;
+    }
     #twitter {
         height: 40px;
         width: 40px;
@@ -210,7 +236,10 @@ body {
         align-items: center;
         justify-content: center;
     }
-
+    #twitter:hover  {
+        border-color: hsl(300, 69%, 71%);
+        cursor: pointer;
+    }
     #insta {
         height: 40px;
         width: 40px;
@@ -221,5 +250,9 @@ body {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+    #insta:hover    {
+        border-color: hsl(300, 69%, 71%);
+        cursor: pointer;
     }
 }
