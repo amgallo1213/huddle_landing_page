@@ -64,16 +64,15 @@ body {
         top: 10px;
         font-size: 15px;
         font-weight: 400;
-        line-height: 15px;
+        line-height: 20px;
         text-align: center;
-        padding: 15px;
-        margin-bottom: 0;
-        margin-top: 0;
+        padding: 0 20px 15px 20px;
+        margin: 0 25px 0 25px;
     }
 
     #button {
         position: absolute;
-        top: 540px;
+        top: 560px;
         right: 100px;
         background-color: white;
         color: hsl(257, 40%, 49%);
@@ -89,7 +88,7 @@ body {
     #socials {
         position: absolute;
         right: 140px;
-        bottom: 20px;
+        bottom: 10px;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
