@@ -29,14 +29,16 @@ Users should be able to:
 
 ### Screenshot
 
+<img width="1440" alt="huddlelandingpage" src="https://github.com/amgallo1213/huddle_landing_page/assets/90292543/c1a521b5-badf-40f3-99b5-0d99b82455c7">
+
 [](huddlelandingpage.png)
 
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: []([https://github.com/amgallo1213/huddle_landing_page)]
+- Live Site URL: [](https://amgallo1213.github.io/huddle_landing_page/)]
 
 ## My process
 
