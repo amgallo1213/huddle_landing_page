@@ -31,14 +31,12 @@ Users should be able to:
 
 <img width="1440" alt="huddlelandingpage" src="https://github.com/amgallo1213/huddle_landing_page/assets/90292543/c1a521b5-badf-40f3-99b5-0d99b82455c7">
 
-[](huddlelandingpage.png)
-
 
 
 ### Links
 
-- Solution URL: []([https://github.com/amgallo1213/huddle_landing_page)]
-- Live Site URL: [](https://amgallo1213.github.io/huddle_landing_page/)]
+- Solution URL: <https://github.com/amgallo1213/huddle_landing_page>
+- Live Site URL: <https://amgallo1213.github.io/huddle_landing_page/>
 
 ## My process
 
@@ -61,7 +59,7 @@ In the future I want to continue working on mobile-first workflow and using css 
 
 ### Useful resources
 
-- [](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - No matter how many times I use flexbox, I still find myself going back to this page for reference.
+- <https://css-tricks.com/snippets/css/a-guide-to-flexbox/> - No matter how many times I use flexbox, I still find myself going back to this page for reference.
 
 
 
